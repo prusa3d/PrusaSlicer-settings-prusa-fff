@@ -1,4 +1,5 @@
 min_slic3r_version = 2.8.0-alpha0
+2.0.0 Updated version for PS2.8.0.
 2.0.0-alpha1 Updated FW version notification. Added ROSA3D filaments. Updated print profiles.
 2.0.0-alpha0 Initial bundle for PS2.8.0-alpha.
 max_slic3r_version = 2.7.9
