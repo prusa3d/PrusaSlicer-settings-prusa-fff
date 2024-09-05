@@ -1,4 +1,5 @@
 min_slic3r_version = 2.8.0-alpha0
+2.0.4 Added VOXELPLA filaments. Updated compatible condition for some specific filament profiles.
 2.0.3 Added printer profiles for Original Prusa MK4S and MK3.9S. Added profiles for high flow nozzles (MK4/MK3.9/XL). Reorganized configuration wizard. 
 2.0.2 Added filament profile for Prusament Woodfill. Updated FW version notification.
 2.0.1 Updated FW version notifications.
