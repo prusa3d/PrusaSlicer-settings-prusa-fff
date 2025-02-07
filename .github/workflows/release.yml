@@ -1,0 +1,28 @@
+name: Fetch Latest PrusaSlicer Config and Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  fetch-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Process config files
+        run: |
+          mkdir -p build
+          python script.py
+      
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          files: build/PrusaResearch.ini 
+          generate_release_notes: true
