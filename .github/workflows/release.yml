@@ -24,7 +24,6 @@ jobs:
       - name: Generate release date
         id: date
         run: |
-          echo "release_date=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
           echo "release_time=$(date +'%Y.%m.%d-%H%M')" >> $GITHUB_OUTPUT
 
       - name: Create release
@@ -38,6 +37,6 @@ jobs:
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git tag -f latest ${{ steps.date.outputs.release_time }}
+          git tag -f latest
           git push origin :refs/tags/latest
           git push origin latest
