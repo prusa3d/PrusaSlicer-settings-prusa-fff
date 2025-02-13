@@ -1,4 +1,5 @@
 min_slic3r_version = 2.8.1-rc0
+2.1.11 Added filament profiles for Elegoo PLA and Elegoo Rapid PETG. Updated filament settings.
 2.1.10 Added MMU3 support for selected ASA, ABS, BVOH and PC Blend filaments (MK3.9/MK4 family printers).
 2.1.9 Updated minimal chamber temperatures (CORE One).
 2.1.8 Added printer profiles for Prusa CORE One.
