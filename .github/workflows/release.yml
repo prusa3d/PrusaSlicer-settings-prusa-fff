@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   fetch-and-release:
     runs-on: ubuntu-latest
@@ -20,9 +21,23 @@ jobs:
           mkdir -p build
           python build.py
       
+      - name: Generate release date
+        id: date
+        run: |
+          echo "release_date=$(date +'%Y.%m.%d')" >> $GITHUB_OUTPUT
+          echo "release_time=$(date +'%Y.%m.%d-%H%M')" >> $GITHUB_OUTPUT
+
       - name: Create release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: latest
-          files: build/PrusaResearch.ini 
+          tag_name: ${{ steps.date.outputs.release_time }}
+          files: build/PrusaResearch.ini
           generate_release_notes: true
+          
+      - name: Move latest tag
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git tag -f latest ${{ steps.date.outputs.release_time }}
+          git push origin :refs/tags/latest
+          git push origin latest
