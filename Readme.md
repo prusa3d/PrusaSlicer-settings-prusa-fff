@@ -12,7 +12,6 @@ The script add all the `*.add.in* and `*.rm.ini` files in the [Smartbox](Smartbo
 Current filaments:
 
 - Overture TPU High-Speed
-- Polymaker PolyDissolve S1
 - Eono PVB
 
 Past filaments:
@@ -21,6 +20,8 @@ Past filaments:
 - Overture PETG
 - Overture PLA
 - Sunlu PLA+ 2.0
+- Polymaker PolyDissolve S1
+
 
 ## Installing profiles
 
