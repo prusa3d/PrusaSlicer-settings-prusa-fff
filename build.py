@@ -75,8 +75,8 @@ def process_files():
             content = content.replace(rm_content_stripped, '')
             logging.info(f'Removed content from {rm_file}')
     
-    # Find the position of [obsolete_presets]
-    obsolete_pos = content.find('[obsolete_presets]')
+    # Find the position of [printer:*common*]
+    obsolete_pos = content.find('[printer:*common*]')
     if obsolete_pos == -1:
         obsolete_pos = len(content)  # If section not found, append at end
         
