@@ -1,4 +1,5 @@
 min_slic3r_version = 2.9.1-alpha0
+2.2.6 Updated end print parking position in accordance with FW6.3.1 (CORE One).
 2.2.5 Updated FW version notification. Updated PETG cooling thresholds (CORE One). Updated Spectrum PCTG PA values. BASF vendor renamed to Forward AM.
 2.2.4 Updated profile for Prusament PP Carbon Fiber (CORE One) and Spectrum PCTG.
 2.2.3 Updated FW version notification. Added filament profiles.
