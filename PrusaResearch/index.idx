@@ -1,4 +1,5 @@
 min_slic3r_version = 2.9.1-alpha0
+2.2.15 Updated specific filament profiles and print settings. Added Blend/Silk filament variants for MINI/MK3.5 (see changelog).
 2.2.14 Added filament profiles for Tectonic-3D filaments.
 2.2.13 Added filament profile for Prusament TPU 95A.
 2.2.12 Updated collision model for sequential prints (CORE One MMU3).
