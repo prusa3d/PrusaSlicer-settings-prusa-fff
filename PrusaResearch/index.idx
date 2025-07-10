@@ -1,4 +1,5 @@
 min_slic3r_version = 2.9.1-alpha0
+2.2.17 Added filament profile for Prusament PP Glass Fiber.
 2.2.16 Added filament profile for 3DJAKE ecoPLA. Increased support material extrusion width (0.4mm nozzle). Updated filament settings.
 2.2.15 Updated specific filament profiles and print settings. Added Blend/Silk filament variants for MINI/MK3.5 (see changelog).
 2.2.14 Added filament profiles for Tectonic-3D filaments.
