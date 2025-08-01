@@ -1,4 +1,5 @@
 min_slic3r_version = 2.9.1-alpha0
+2.2.19 Slightly adjusted perimeter speeds in "Structural" profiles for quieter printing. (CORE One). Updated PA values for Buddy3D PETG.
 2.2.18 Updated FW version notification (CORE One). Added filament profile for Sunlu PETG.
 2.2.17 Added filament profile for Prusament PP Glass Fiber.
 2.2.16 Added filament profile for 3DJAKE ecoPLA. Increased support material extrusion width (0.4mm nozzle). Updated filament settings.
