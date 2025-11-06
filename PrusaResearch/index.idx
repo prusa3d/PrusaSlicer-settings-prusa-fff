@@ -1,6 +1,8 @@
 min_slic3r_version = 2.9.4-rc0
+2.4.1 Updated filament profile for Prusament TPU 95A.
 2.4.0 Added profiles for CORE One L.
 min_slic3r_version = 2.9.3-alpha0
+2.3.9 Updated filament profile for Prusament TPU 95A.
 2.3.8 MMU3 - added support for 0.6mm nozzle (MK4 family, CORE One).
 2.3.7 Added filament profile for Prusament PC Space Grade (XL and MK4).
 2.3.6 Added filament profile for Prusament PC Space Grade.
