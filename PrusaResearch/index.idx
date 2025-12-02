@@ -1,4 +1,5 @@
 min_slic3r_version = 2.9.4-rc0
+2.4.3 Updated FW version notification. Updated start g-code (XL). Increased raft first layer density. 
 2.4.2 Added BALANCED profiles for non-HF 0.4mm nozzle (C1/C1L). Updated FW version notification (C1L). Updated support settings. 
 2.4.1 Updated filament profile for Prusament TPU 95A.
 2.4.0 Added profiles for CORE One L.
