@@ -1,4 +1,5 @@
 min_slic3r_version = 2.9.4-rc0
+2.4.12 Updated default printer configuration for Prusa Signature Oak.
 2.4.11 Added profiles for Prusa Signature Oak. Added profiles for CORE One L MMU3. Updated MMU parameters.
 2.4.10 Updated/fixed filament profiles.
 2.4.9 Updated 3D-Fuel filament profiles.
