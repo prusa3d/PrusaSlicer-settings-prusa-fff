@@ -1,4 +1,5 @@
 min_slic3r_version = 2.9.6
+2.5.1 Added filament profiles for Prusament PC Blend Carbon Fiber, Prusament Woodfill, Prusament rPLA. Reduced speed for support material in Balanced profile. Updated retraction length for Prusament PLA. Updated firmware version notification (INDX).
 2.5.0 Added profiles for Prusa CORE One INDX. Updated FW version notification.
 min_slic3r_version = 2.9.4-rc0
 2.4.16 Added filament profile for Prusament PLA High Speed.
